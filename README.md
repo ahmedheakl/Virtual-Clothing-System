@@ -29,7 +29,7 @@ Using React Native framework, a mobile application takes a photo using the mobil
 ## Demo 
 <p align="center">
   <img height=600 width=350 src="https://github.com/ahmedheakl/Virtual-Clothing-System/blob/main/pbl_mobile_gif.gif"/> 
-  <img width=600 height=400 src="https://github.com/ahmedheakl/Virtual-Clothing-System/blob/main/pbl_web_gif.gif"/> 
+  <img width=650 height=400 src="https://github.com/ahmedheakl/Virtual-Clothing-System/blob/main/pbl_web_gif.gif"/> 
 </p>
 
 
