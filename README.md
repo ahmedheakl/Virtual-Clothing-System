@@ -26,9 +26,14 @@ Using a Tkinter GUI, the user can take photo using a web cam and send it over th
 ## Mobile Application
 Using React Native framework, a mobile application takes a photo using the mobile camera and send it over the local host API in base64 encoding. The mobile only needs to be connected to the internet and have the IP of the host to work. **Tech Stack: React Native, Java Script, Expo Components**
 
-## Demo 
+## Mobile Demo 
 <p align="center">
   <img height=600 width=350 src="https://github.com/ahmedheakl/Virtual-Clothing-System/blob/main/pbl_mobile_gif.gif"/> 
+</p>
+
+
+## Website Demo
+<p align="center">
   <img width=650 height=400 src="https://github.com/ahmedheakl/Virtual-Clothing-System/blob/main/pbl_web_gif.gif"/> 
 </p>
 
