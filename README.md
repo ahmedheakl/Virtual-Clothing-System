@@ -18,13 +18,13 @@ Pre-trained versions were used and deployed onto a local server to be shared amo
 
 ## Full Stack Website for User Interaction
 *The website takes an input photo for the user and input photo for the desired cloth. An API request is sent to the local server to run the model with the input data. The data is sent and received in JSON format.* 
-We designed the frontend using bootstrap framework, HTML, CSS, and Java Script. We implemented the backend using Django framework along with SQL-Lite for database storage. **Tech Stack: HTML, CSS, Java Script, Django, Python, SQL**
+The frontend was designed using bootstrap framework, HTML, CSS, and Java Script. We implemented the backend using Django framework along with SQL-Lite for database storage. **Tech Stack: HTML, CSS, Java Script, Django, Python, SQL**
 
 ## Embedded System using Raspberry PI
 Using a Tkinter GUI, the user can take photo using a web cam and send it over the local host API in JSON format using Python requests library. The incoming image data is encoded in base64 format, which is then decoded and displayed on the GUI. The system was implemented on a raspberry PI. **Tech Stack: Linux, Python, Tkinter**
 
 ## Mobile Application
-Using React Native framework, we built a mobile application which can take a photo using the mobile camera and send it over the local host API in base64 encoding. The mobile only needs to be connected to the internet and have the IP of the host to work. **Tech Stack: React Native, Java Script, Expo Components**
+Using React Native framework, a mobile application takes a photo using the mobile camera and send it over the local host API in base64 encoding. The mobile only needs to be connected to the internet and have the IP of the host to work. **Tech Stack: React Native, Java Script, Expo Components**
 
 
 
