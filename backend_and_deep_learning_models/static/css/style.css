@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Raleway&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css");
+
+@font-face {
+    font-family: "MuseoModerno";
+    src: url("../fonts/MuseoModerno-Regular.ttf") format("opentype"); 
+}
+
+* {
+    font-family: 'MuseoModerno', 'Raleway', sans-serif;
+}
+
+html,
+body {
+    background-color: #f3f3f3;
+}
+
+.vit-btn {
+    padding: 15px 50px;
+    border: 1px solid #DE354C;
+    color: #DE354C;
+    border-radius: 100px;
+    transition: .5s;
+}
+
+.vit-btn:hover {
+    color: #FFF;
+    background-color: #DE354C;
+}
+
+nav {
+    padding: 20px 0px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #212529;
+} 
+
+nav .navbar-link {
+    margin: 0 10px;
+}
+
+.logo {
+    color: #DE354C;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    margin-right: 7px;
+    /* font-size: 22px; */
+}
+
+.welcome {
+    min-height: calc(100vh - 64px);
+    position: relative;
+}
+
+.welcome .content {
+    width: 40%;
+    z-index: 2;
+}
+
+.welcome .content h3 {
+    color: #3C1874;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.welcome img {
+    position: absolute;
+    z-index: 0;
+    top:0;
+    /* bottom: calc(100vh - 64px); */
+    right: 0;
+    max-height: calc(100vh - 64px)  
+}
+
+section {
+    padding: 70px 0;
+}
+
+section h3 {
+    color: #3C1874;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+section .underline {
+    border: 1px solid #DE354C;
+    color: #DE354C;
+    width: 100px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.background {
+    background-image: url('../img/back3.png');
+    background-size: cover;
+}
+
+.about {
+    padding-bottom: 0;
+}
+
+.about p {
+    text-align: center;
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+.steps .box{
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 25px;
+    max-width: 400px;
+    box-shadow: 0px 0px 30px 10px #f0f0f0;
+}
+
+.steps .box .num {
+    padding: 10px 18px;
+    border-radius: 100px;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.team {
+    background-color: #FFF;
+    /* background-image: url('../img/background.png'); */
+    background-size: cover;
+}
+
+.team section {
+    padding: 0;
+}
+
+.team .member {
+    background-color: #FFF;
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 230px;
+}
+
+.team .member .icons i{
+    margin: 5px;
+    font-size: 22px;
+}
+
+.team .member .icons i.bi-facebook{
+    color: #1877f2;
+}
+
+.team .member .icons i.bi-whatsapp{
+    color: #25d366;
+}
+
+.team .member .icons i.bi-google{
+    color: #dd4b39;
+}
+
+.team .member .img_holder {
+    height: 200px;
+    overflow-y: hidden;
+    border-radius: 10px;
+}
+
+.team .member img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.team .member span{
+    display: block;
+    margin-top: 10px;
+}
+
+/* .faq .accordion-button:not(.collapsed) {
+    background-color: #DE354C;
+} */
+
+.faq {
+    background-image: url('../img/back4.png');
+}
+
+.faq .accordion {
+    max-width: 800px;
+    margin: auto;
+}
+
+.faq .accordion-item {
+    margin: 10px 0;
+    border-radius: 25px 25px 0 0;
+    padding: 10px;
+}
+
+.faq button,
+.faq h2,
+.accordion-item:first-of-type .accordion-button {
+    border-radius: 100px;
+    border: none;
+    background: none;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #FFF;
+    color: black;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #283747;
+    color: #FFF;
+}
+
+.upload {
+    min-height: calc(100vh - 64px);
+    position: relative;
+    padding: 0;
+}
+
+.upload .right {
+    position: absolute;
+    z-index: 0;
+    bottom:0;
+    /* bottom: calc(100vh - 64px); */
+    right: 0;
+    max-height: calc(100vh - 64px);
+    max-width: 50%;
+}
+
+.upload .preview_img{
+    display: block;
+    border-radius: 5px;
+    border: 3px solid #DE354C;
+    margin-bottom: 20px;
+}
+
+.upload .content{
+    background-color: #932432;
+    max-width: 50%;
+    min-height: calc(100vh - 64px);
+    position: relative;
+    padding: 8%;
+    color: #FFF;
+}
+
+.result {
+    min-height: 92vh;
+    text-align: center;
+    vertical-align: middle;
+    background-image: url('../img/back4.png');
+}
+
+.result h3 {
+    margin-top: 5vh;
+    font-size: 34px;
+}
+
+.result .images {
+    display: inline-block;
+    text-align: left;
+    width: 777px;
+}
+
+.result img {
+    border-radius: 5px;
+    margin: 0 20px;
+    outline: 5px solid #3C1874;
+    display: none;
+    width: 200px;
+    height: 300px;
+}
+
+.result #span-1,
+.result #span-2,
+.result #span-3 {
+    font-size: 30px;
+    font-weight: bold;
+    display: none
+}
+
+.result hr {
+    margin-bottom: 50px;
+    color: #DE354C;
+    background-color: #DE354C;
+    border: 3px solid #DE354C;
+    border-radius: 100px;
+    opacity: 1;
+}
+
+.result #end-message {
+    margin-top: 50px;
+    font-size: 28px;
+    color: #3C1874;
+}
+/*****************************************
+  upload button styles
+******************************************/
+.file-upload {
+    position: relative;
+    display: inline-block;
+}
+  
+.file-upload__label {
+    display: block;
+    padding: 1em 2em;
+    color: #fff;
+    background: #283747;
+    border-radius: 0.4em;
+    transition: background 0.3s;
+}
+
+.file-upload__label:hover {
+    cursor: pointer;
+    background: #000;
+}
+  
+.file-upload__input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 1;
+    width: 0;
+    height: 100%;
+    opacity: 0;
+}
+
+
+  
+  .loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #f3f3f3;
+  }
+  
+  svg {
+    overflow: visible;
+    width: 100px;
+    height: 150px;
+  }
+  svg g {
+    animation: slide 2s linear infinite;
+  }
+  svg g:nth-child(2) {
+    animation-delay: 0.5s;
+  }
+  svg g:nth-child(2) path {
+    animation-delay: 0.5s;
+    stroke-dasharray: 0px 158px;
+    stroke-dashoffset: 1px;
+  }
+  svg path {
+    stroke: url(#gradient);
+    stroke-width: 20px;
+    stroke-linecap: round;
+    fill: none;
+    stroke-dasharray: 0 157px;
+    stroke-dashoffset: 0;
+    animation: escalade 2s cubic-bezier(0.8, 0, 0.2, 1) infinite;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateY(-50px);
+    }
+    100% {
+      transform: translateY(50px);
+    }
+  }
+  @keyframes escalade {
+    0% {
+      stroke-dasharray: 0 157px;
+      stroke-dashoffset: 0;
+    }
+    50% {
+      stroke-dasharray: 157px 157px;
+      stroke-dashoffset: 0;
+    }
+    100% {
+      stroke-dasharray: 157px 157px;
+      stroke-dashoffset: -156px;
+    }
+  }

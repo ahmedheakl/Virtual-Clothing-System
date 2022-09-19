@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color: var(--black);
+    font-family: "Proxima Nova Regular", sans-serif;
+    text-decoration: none;
+}
+
+@font-face {font-family: "Proxima Nova Regular";
+    src: url("@font-face/0376a58122a881d16a294512d3c947b1.eot"); /* IE9*/
+    src: url("@font-face/0376a58122a881d16a294512d3c947b1.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("@font-face/0376a58122a881d16a294512d3c947b1.woff2") format("woff2"), /* chrome、firefox */
+    url("@font-face/0376a58122a881d16a294512d3c947b1.woff") format("woff"), /* chrome、firefox */
+    url("@font-face/0376a58122a881d16a294512d3c947b1.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("@font-face/0376a58122a881d16a294512d3c947b1.svg#Proxima Nova Regular") format("svg"); /* iOS 4.1- */
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+:root {
+    --green: #699b19;
+    /* --black: #0b0831; */
+    --black: #6d260a;
+    --bold-light-color: #6d6c6c;
+    --light-color: rgb(122, 57, 57);
+    --lighter-color: #f8e9e9;
+    --light-red: rgba(248, 149, 149, 0.959);
+    --red: rgb(216, 0, 0);
+    --error-color: #ff00006b;
+    --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+    --border: 0.2rem solid rgba(0, 0, 0, 0.1);
+    --outline: 0.1rem solid rgba(0, 0, 0, 0.1);
+    --outline-hover: 0.2rem solid var(--black);
+    --taupe-color: #ADA7A7;
+    --pewter-color: #D3D3CB;
+    --orange-color: #D37506;
+    --red-orange-color: #9F2B00;
+}
+body{
+    background-color: whitesmoke;
+}
+.container{
+    min-height: 90vh;
+    width:100%;
+    display: grid;
+    grid-template-columns: 2.05fr 1.8fr;
+}
+
+
+.left-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 150px 20px 0px 20px
+}
+
+.left-child h1{
+    font-weight: bolder;
+    font-size: 3.6rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(135deg,#ff4136,#5b53ff);
+}
+
+.left-child p{
+    padding: 20px 0px 55px 0px;
+    font-size: 2rem;
+    text-align: justify;
+    
+    
+}
+
+.btn {
+    margin-top: 0.5rem;
+    display: inline-block;
+    padding: 0.8rem 3rem;
+    font-size: 1.7rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid;
+    border-color: rgba(0, 0, 0, 0.3);
+    color: var(--black);
+    cursor: pointer;
+    background: none;
+    text-align: center;
+    width: fit-content;
+    align-self: center;
+}
+
+@keyframes trans {
+    0%{
+        border-color: rgba(0, 0, 0, 0.1);
+    }
+    100%{
+        border-color: white;
+    }
+}
+
+.btn:hover {
+    background-image: linear-gradient(135deg,#ff4136,#5b53ff);
+    color: #fff;
+    border-color: white;
+    box-shadow: var(--box-shadow);
+    animation-name: trans;
+    animation-duration: 0.1s;
+}
+
+.right-child{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column; 
+    background-image: linear-gradient(135deg,#ff4136,#5b53ff);
+    box-shadow: 4px 1rem 1.3rem 3px #decbcb;
+    border-radius: 0rem 0rem 0rem 2rem;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.right-child h2{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid white;
+    
+}
+
+.right-child .sample-images{
+    padding:  2px 0px 0px 2rem;
+}
+
+.right-child .sample-images img{
+    width: 200px;
+    height: 250px;
+    border-radius: 1.2rem;
+    box-shadow: var(--box-shadow);
+    margin: 10px;
+}
+
+
+.footer{
+    position: sticky;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 0.1rem;
+    color: whitesmoke !important;
+    margin: 1.6rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer div::before{
+    content: "";
+    width:  30%;
+    border-bottom: solid 2px #000;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 1;
+}
+
+.footer div::after{
+    content: "";
+    width:  30%;
+    border-bottom: solid 2px #000;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+}
+
+.footer div{
+    background-color: none;
+    width: fit-content;
+}
+
+.footer p{
+    padding: 0 10px;
+}
+
+.footer a{
+    color: #a977df;
+    text-decoration: none;
+    font-weight: bold;   
+    
+}
