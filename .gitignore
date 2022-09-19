@@ -1,0 +1,17 @@
+backend_and_deep_learning_model/Data_preprocessing/test_mask
+backend_and_deep_learning_model/Data_preprocessing/test_colormask
+backend_and_deep_learning_model/pose_app/pose_iter_440000.caffemodel
+backend_and_deep_learning_model/pose_app/Self_Parser/lip_final.pth
+backend_and_deep_learning_model/pose_app/ACGPN/checkpoints
+
+mobile_application/node_modules/
+mobile_application/.expo/
+mobile_application/dist/
+mobile_application/npm-debug.*
+mobile_application/*.jks
+mobile_application/*.p8
+mobile_application/*.p12
+mobile_application/*.key
+mobile_application/*.mobileprovision
+mobile_application/*.orig.*
+mobile_application/web-build/
